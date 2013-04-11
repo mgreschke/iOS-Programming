@@ -1,6 +1,6 @@
 //
 //  HypnosisterAppDelegate.m
-//  Hypnosister Bronze
+//  Hypnosister Silver
 //
 //  Created by Erin Parker on 4/10/13.
 //  Copyright (c) 2013 com.bignerdranch. All rights reserved.

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EAF0AD591716928400DC8EEF"
                BuildableName = "Hypnosister Bronze.app"
-               BlueprintName = "Hypnosister Bronze"
-               ReferencedContainer = "container:Hypnosister Bronze.xcodeproj">
+               BlueprintName = "Hypnosister Silver"
+               ReferencedContainer = "container:Hypnosister Silver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF0AD591716928400DC8EEF"
             BuildableName = "Hypnosister Bronze.app"
-            BlueprintName = "Hypnosister Bronze"
-            ReferencedContainer = "container:Hypnosister Bronze.xcodeproj">
+            BlueprintName = "Hypnosister Silver"
+            ReferencedContainer = "container:Hypnosister Silver.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF0AD591716928400DC8EEF"
             BuildableName = "Hypnosister Bronze.app"
-            BlueprintName = "Hypnosister Bronze"
-            ReferencedContainer = "container:Hypnosister Bronze.xcodeproj">
+            BlueprintName = "Hypnosister Silver"
+            ReferencedContainer = "container:Hypnosister Silver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF0AD591716928400DC8EEF"
             BuildableName = "Hypnosister Bronze.app"
-            BlueprintName = "Hypnosister Bronze"
-            ReferencedContainer = "container:Hypnosister Bronze.xcodeproj">
+            BlueprintName = "Hypnosister Silver"
+            ReferencedContainer = "container:Hypnosister Silver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
