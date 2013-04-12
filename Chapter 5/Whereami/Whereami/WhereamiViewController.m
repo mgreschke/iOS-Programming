@@ -20,6 +20,12 @@
         [locationManager setDelegate:self];
         
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+        
+        UITabBarItem *tbi = [self tabBarItem];
+        [tbi setTitle:@"Map"];
+        
+        UIImage *i = [UIImage imageNamed:@"Hypno.png"];
+        [tbi setImage:i];
     }
     
     return self;
