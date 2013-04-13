@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HypnosisViewController.h"
 
 @interface HypnosisView : UIView
 
