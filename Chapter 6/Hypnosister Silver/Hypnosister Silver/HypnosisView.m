@@ -19,7 +19,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setBackgroundColor:[UIColor clearColor]];
-        [self setCircleColor:[UIColor lightGrayColor]];
     }
     return self;
 }
