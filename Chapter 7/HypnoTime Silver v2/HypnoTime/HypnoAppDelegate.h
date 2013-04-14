@@ -1,5 +1,5 @@
 //
-//  HypnosisViewController.h
+//  HypnoAppDelegate.h
 //  HypnoTime
 //
 //  Created by Erin Parker on 4/11/13.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HypnosisView.h"
 
-@interface HypnosisViewController : UIViewController
-{
-    HypnosisView *currentView;
-}
+@interface HypnoAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
 @end

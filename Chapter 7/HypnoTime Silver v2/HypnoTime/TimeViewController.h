@@ -1,5 +1,5 @@
 //
-//  HypnosisViewController.h
+//  TimeViewController.h
 //  HypnoTime
 //
 //  Created by Erin Parker on 4/11/13.
@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HypnosisView.h"
 
-@interface HypnosisViewController : UIViewController
+@interface TimeViewController : UIViewController
 {
-    HypnosisView *currentView;
+    __weak IBOutlet UILabel *timeLabel;
 }
+
+- (IBAction)showCurrentTime: (id)sender;
+
 @end

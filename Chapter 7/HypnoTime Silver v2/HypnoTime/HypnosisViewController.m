@@ -2,15 +2,16 @@
 //  HypnosisViewController.m
 //  HypnoTime
 //
-//  Created by Erin Parker on 4/11/13.
+//  Created by Erin Parker on 4/13/13.
 //  Copyright (c) 2013 com.bignerdranch. All rights reserved.
 //
 
 #import "HypnosisViewController.h"
 #import "HypnosisView.h"
 
-
 @interface HypnosisViewController ()
+
+@property (nonatomic, weak) HypnosisView *hypnoView;
 
 @end
 
@@ -21,19 +22,20 @@
     CGRect frame = [[UIScreen mainScreen] bounds];
     HypnosisView *v = [[HypnosisView alloc] initWithFrame:frame];
     
-    [self setView:v];
+    [self setHypnoView:v];
+    [self setView:[self hypnoView]];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
         UITabBarItem *tbi = [self tabBarItem];
         [tbi setTitle:@"Hypnosis"];
         
         UIImage *i = [UIImage imageNamed:@"Hypno.png"];
         [tbi setImage:i];
-    
     }
     return self;
 }
@@ -51,28 +53,30 @@
 
 - (IBAction)createControls:(id)sender
 {
+    
     switch (((UISegmentedControl *)sender).selectedSegmentIndex)
     {
         case 0:
         {
             NSLog(@"Red Color");
-            [currentView setCircleColor:[UIColor redColor]];
+            [[self hypnoView] setCircleColor:[UIColor redColor]];
             break;
         }
         case 1:
         {
             NSLog(@"Green Color");
-            [currentView setCircleColor:[UIColor greenColor]];
+            [[self hypnoView] setCircleColor:[UIColor greenColor]];
             break;
         }
         default:
         {
             NSLog(@"Blue Color");
-            [currentView setCircleColor:[UIColor blueColor]];
+            [[self hypnoView] setCircleColor:[UIColor blueColor]];
             break;
         }
     }
 }
+
 
 
 - (void)viewDidLoad

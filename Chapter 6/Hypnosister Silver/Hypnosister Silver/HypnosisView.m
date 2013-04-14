@@ -39,8 +39,12 @@
     CGContextSetLineWidth(ctx, 10);
     
     for (float currentRadius = maxRadius; currentRadius > 0; currentRadius -= 20) {
-    CGContextAddArc(ctx, center.x, center.y, currentRadius, 0.0, M_PI * 2.0, YES);
-    CGContextStrokePath(ctx);
+        
+        [circleColor setStroke];
+    
+        CGContextAddArc(ctx, center.x, center.y, currentRadius, 0.0, M_PI * 2.0, YES);
+
+        CGContextStrokePath(ctx);
 
     }
     

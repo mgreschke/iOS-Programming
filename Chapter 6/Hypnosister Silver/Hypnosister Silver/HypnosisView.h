@@ -10,9 +10,7 @@
 #import "HypnosisViewController.h"
 
 @interface HypnosisView : UIView
-{
-    IBOutlet UIColor *myCircleColor;
-}
+
 @property (nonatomic, strong) UIColor *circleColor;
 
 @end

@@ -70,7 +70,7 @@
 		EAF0AD9E1717CFE000DC8EEF = {
 			isa = PBXGroup;
 			children = (
-				EAF0ADB31717CFE000DC8EEF /* HypnoTime */,
+				EAF0ADB31717CFE000DC8EEF /* HypnoTime OLD */,
 				EAF0ADAC1717CFE000DC8EEF /* Frameworks */,
 				EAF0ADAA1717CFE000DC8EEF /* Products */,
 			);
@@ -94,13 +94,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAF0ADB31717CFE000DC8EEF /* HypnoTime */ = {
+		EAF0ADB31717CFE000DC8EEF /* HypnoTime OLD */ = {
 			isa = PBXGroup;
 			children = (
-				EAF0ADD51717DA9C00DC8EEF /* Hypno.png */,
-				EAF0ADD61717DA9C00DC8EEF /* Hypno@2x.png */,
-				EAF0ADD71717DA9C00DC8EEF /* Time.png */,
-				EAF0ADD81717DA9C00DC8EEF /* Time@2x.png */,
 				EAF0ADCD1717D09600DC8EEF /* HypnosisView.h */,
 				EAF0ADCE1717D09600DC8EEF /* HypnosisView.m */,
 				EAF0ADBC1717CFE000DC8EEF /* HypnoAppDelegate.h */,
@@ -112,12 +108,17 @@
 				EAF0ADD31717D2D300DC8EEF /* TimeViewController.xib */,
 				EAF0ADB41717CFE000DC8EEF /* Supporting Files */,
 			);
+			name = "HypnoTime OLD";
 			path = HypnoTime;
 			sourceTree = "<group>";
 		};
 		EAF0ADB41717CFE000DC8EEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAF0ADD51717DA9C00DC8EEF /* Hypno.png */,
+				EAF0ADD61717DA9C00DC8EEF /* Hypno@2x.png */,
+				EAF0ADD71717DA9C00DC8EEF /* Time.png */,
+				EAF0ADD81717DA9C00DC8EEF /* Time@2x.png */,
 				EAF0ADB51717CFE000DC8EEF /* HypnoTime-Info.plist */,
 				EAF0ADB61717CFE000DC8EEF /* InfoPlist.strings */,
 				EAF0ADB91717CFE000DC8EEF /* main.m */,
@@ -313,6 +314,7 @@
 				EAF0ADC91717CFE100DC8EEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
