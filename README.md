@@ -1,4 +1,4 @@
 iOS-Programming
 ===============
 
-My iOS Programming Exercises from Big Nerd Ranch 3rd Edition.
+My work and challenge exercises from iOS Programming 3rd Edition by Big Nerd Ranch.
