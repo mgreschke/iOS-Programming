@@ -74,7 +74,6 @@
 - (IBAction)toggleEditingMode:(id)sender
 {
     if ([self isEditing]) {
-        // Change text of button to inform user of state
         [sender setTitle:@"Edit" forState:UIControlStateNormal];
         [self setEditing:NO animated:YES];
     } else {
@@ -115,5 +114,10 @@
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
 {
     [[BNRItemStore sharedStore] moveItemAtIndex:[sourceIndexPath row] toIndex:[destinationIndexPath row]];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return @"Remove";
 }
 @end

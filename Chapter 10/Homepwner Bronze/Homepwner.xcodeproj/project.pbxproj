@@ -62,7 +62,7 @@
 		EA99FE4D171C91CF0065E016 = {
 			isa = PBXGroup;
 			children = (
-				EA99FE62171C91CF0065E016 /* Homepwner */,
+				EA99FE62171C91CF0065E016 /* Homepwner Bronze */,
 				EA99FE5B171C91CF0065E016 /* Frameworks */,
 				EA99FE59171C91CF0065E016 /* Products */,
 			);
@@ -86,7 +86,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA99FE62171C91CF0065E016 /* Homepwner */ = {
+		EA99FE62171C91CF0065E016 /* Homepwner Bronze */ = {
 			isa = PBXGroup;
 			children = (
 				EA99FE7C171C94160065E016 /* BNRItem.h */,
@@ -100,6 +100,7 @@
 				EA99FE6C171C91CF0065E016 /* HomepwnerAppDelegate.m */,
 				EA99FE63171C91CF0065E016 /* Supporting Files */,
 			);
+			name = "Homepwner Bronze";
 			path = Homepwner;
 			sourceTree = "<group>";
 		};
