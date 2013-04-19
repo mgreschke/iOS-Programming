@@ -7,45 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA2923C6171FA26B006FCD53 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2923C4171FA26A006FCD53 /* DetailViewController.m */; };
-		EA2923C7171FA26B006FCD53 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2923C5171FA26B006FCD53 /* DetailViewController.xib */; };
+		EA2924401720ECE1006FCD53 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA29243E1720CBF5006FCD53 /* Default-568h@2x.png */; };
 		EA99FE5D171C91CF0065E016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA99FE5C171C91CF0065E016 /* UIKit.framework */; };
 		EA99FE5F171C91CF0065E016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA99FE5E171C91CF0065E016 /* Foundation.framework */; };
 		EA99FE61171C91CF0065E016 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA99FE60171C91CF0065E016 /* CoreGraphics.framework */; };
-		EA99FE67171C91CF0065E016 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA99FE65171C91CF0065E016 /* InfoPlist.strings */; };
-		EA99FE69171C91CF0065E016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA99FE68171C91CF0065E016 /* main.m */; };
-		EA99FE6D171C91CF0065E016 /* HomepwnerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA99FE6C171C91CF0065E016 /* HomepwnerAppDelegate.m */; };
-		EA99FE6F171C91CF0065E016 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA99FE6E171C91CF0065E016 /* Default.png */; };
-		EA99FE71171C91CF0065E016 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA99FE70171C91CF0065E016 /* Default@2x.png */; };
-		EA99FE73171C91CF0065E016 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA99FE72171C91CF0065E016 /* Default-568h@2x.png */; };
-		EA99FE7B171C932D0065E016 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA99FE7A171C932D0065E016 /* ItemsViewController.m */; };
-		EA99FE7E171C94160065E016 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA99FE7D171C94160065E016 /* BNRItem.m */; };
-		EA99FE81171C94AD0065E016 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EA99FE80171C94AD0065E016 /* BNRItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA2923C3171FA26A006FCD53 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		EA2923C4171FA26A006FCD53 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		EA2923C5171FA26B006FCD53 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EA2924141720C960006FCD53 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = SOURCE_ROOT; };
+		EA2924151720C960006FCD53 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = SOURCE_ROOT; };
+		EA2924171720C968006FCD53 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRItem.h; path = "Homepwner Bronze and Silver/BNRItem.h"; sourceTree = SOURCE_ROOT; };
+		EA2924181720C972006FCD53 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItem.m; path = "Homepwner Bronze and Silver/BNRItem.m"; sourceTree = SOURCE_ROOT; };
+		EA2924191720C972006FCD53 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRItemStore.h; path = "Homepwner Bronze and Silver/BNRItemStore.h"; sourceTree = SOURCE_ROOT; };
+		EA29241A1720C972006FCD53 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItemStore.m; path = "Homepwner Bronze and Silver/BNRItemStore.m"; sourceTree = SOURCE_ROOT; };
+		EA29241B1720C972006FCD53 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Homepwner Bronze and Silver/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		EA29241C1720C972006FCD53 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Homepwner Bronze and Silver/Default.png"; sourceTree = SOURCE_ROOT; };
+		EA29241D1720C972006FCD53 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Homepwner Bronze and Silver/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		EA29241E1720C972006FCD53 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = "Homepwner Bronze and Silver/DetailViewController.h"; sourceTree = SOURCE_ROOT; };
+		EA29241F1720C972006FCD53 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = "Homepwner Bronze and Silver/DetailViewController.m"; sourceTree = SOURCE_ROOT; };
+		EA2924201720C972006FCD53 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = "Homepwner Bronze and Silver/DetailViewController.xib"; sourceTree = SOURCE_ROOT; };
+		EA2924231720C972006FCD53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		EA2924251720C972006FCD53 /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Homepwner-Prefix.pch"; path = "Homepwner Bronze and Silver/Homepwner-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		EA2924261720C972006FCD53 /* HomepwnerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomepwnerAppDelegate.h; path = "Homepwner Bronze and Silver/HomepwnerAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		EA2924271720C972006FCD53 /* HomepwnerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomepwnerAppDelegate.m; path = "Homepwner Bronze and Silver/HomepwnerAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		EA2924281720C972006FCD53 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Homepwner Bronze and Silver/main.m"; sourceTree = SOURCE_ROOT; };
+		EA29243A1720CBC7006FCD53 /* Homepwner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homepwner-Info.plist"; sourceTree = "<group>"; };
+		EA29243C1720CBD8006FCD53 /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homepwner-Prefix.pch"; sourceTree = "<group>"; };
+		EA29243E1720CBF5006FCD53 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EA99FE58171C91CF0065E016 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA99FE5C171C91CF0065E016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA99FE5E171C91CF0065E016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA99FE60171C91CF0065E016 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA99FE64171C91CF0065E016 /* Homepwner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homepwner-Info.plist"; sourceTree = "<group>"; };
-		EA99FE66171C91CF0065E016 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EA99FE68171C91CF0065E016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA99FE6A171C91CF0065E016 /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homepwner-Prefix.pch"; sourceTree = "<group>"; };
-		EA99FE6B171C91CF0065E016 /* HomepwnerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepwnerAppDelegate.h; sourceTree = "<group>"; };
-		EA99FE6C171C91CF0065E016 /* HomepwnerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerAppDelegate.m; sourceTree = "<group>"; };
-		EA99FE6E171C91CF0065E016 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		EA99FE70171C91CF0065E016 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		EA99FE72171C91CF0065E016 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		EA99FE79171C932D0065E016 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewController.h; path = ../ItemsViewController.h; sourceTree = "<group>"; };
-		EA99FE7A171C932D0065E016 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewController.m; path = ../ItemsViewController.m; sourceTree = "<group>"; };
-		EA99FE7C171C94160065E016 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
-		EA99FE7D171C94160065E016 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
-		EA99FE7F171C94AD0065E016 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
-		EA99FE80171C94AD0065E016 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +57,10 @@
 		EA99FE4D171C91CF0065E016 = {
 			isa = PBXGroup;
 			children = (
-				EA99FE62171C91CF0065E016 /* Homepwner Bronze and Silver */,
+				EA29243E1720CBF5006FCD53 /* Default-568h@2x.png */,
+				EA29243C1720CBD8006FCD53 /* Homepwner-Prefix.pch */,
+				EA29243A1720CBC7006FCD53 /* Homepwner-Info.plist */,
+				EA99FE62171C91CF0065E016 /* BronzeSilver */,
 				EA99FE5B171C91CF0065E016 /* Frameworks */,
 				EA99FE59171C91CF0065E016 /* Products */,
 			);
@@ -89,36 +84,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA99FE62171C91CF0065E016 /* Homepwner Bronze and Silver */ = {
+		EA99FE62171C91CF0065E016 /* BronzeSilver */ = {
 			isa = PBXGroup;
 			children = (
-				EA99FE7C171C94160065E016 /* BNRItem.h */,
-				EA99FE7D171C94160065E016 /* BNRItem.m */,
-				EA99FE7F171C94AD0065E016 /* BNRItemStore.h */,
-				EA99FE80171C94AD0065E016 /* BNRItemStore.m */,
-				EA99FE79171C932D0065E016 /* ItemsViewController.h */,
-				EA99FE7A171C932D0065E016 /* ItemsViewController.m */,
-				EA99FE6B171C91CF0065E016 /* HomepwnerAppDelegate.h */,
-				EA99FE6C171C91CF0065E016 /* HomepwnerAppDelegate.m */,
-				EA2923C3171FA26A006FCD53 /* DetailViewController.h */,
-				EA2923C4171FA26A006FCD53 /* DetailViewController.m */,
-				EA2923C5171FA26B006FCD53 /* DetailViewController.xib */,
+				EA2924171720C968006FCD53 /* BNRItem.h */,
+				EA2924181720C972006FCD53 /* BNRItem.m */,
+				EA2924191720C972006FCD53 /* BNRItemStore.h */,
+				EA29241A1720C972006FCD53 /* BNRItemStore.m */,
+				EA29241E1720C972006FCD53 /* DetailViewController.h */,
+				EA29241F1720C972006FCD53 /* DetailViewController.m */,
+				EA2924201720C972006FCD53 /* DetailViewController.xib */,
+				EA2924261720C972006FCD53 /* HomepwnerAppDelegate.h */,
+				EA2924271720C972006FCD53 /* HomepwnerAppDelegate.m */,
+				EA2924141720C960006FCD53 /* ItemsViewController.h */,
+				EA2924151720C960006FCD53 /* ItemsViewController.m */,
 				EA99FE63171C91CF0065E016 /* Supporting Files */,
 			);
-			name = "Homepwner Bronze and Silver";
+			name = BronzeSilver;
 			path = Homepwner;
 			sourceTree = "<group>";
 		};
 		EA99FE63171C91CF0065E016 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA99FE64171C91CF0065E016 /* Homepwner-Info.plist */,
-				EA99FE65171C91CF0065E016 /* InfoPlist.strings */,
-				EA99FE68171C91CF0065E016 /* main.m */,
-				EA99FE6A171C91CF0065E016 /* Homepwner-Prefix.pch */,
-				EA99FE6E171C91CF0065E016 /* Default.png */,
-				EA99FE70171C91CF0065E016 /* Default@2x.png */,
-				EA99FE72171C91CF0065E016 /* Default-568h@2x.png */,
+				EA2924221720C972006FCD53 /* InfoPlist.strings */,
+				EA2924281720C972006FCD53 /* main.m */,
+				EA2924251720C972006FCD53 /* Homepwner-Prefix.pch */,
+				EA29241B1720C972006FCD53 /* Default-568h@2x.png */,
+				EA29241C1720C972006FCD53 /* Default.png */,
+				EA29241D1720C972006FCD53 /* Default@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,11 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA99FE67171C91CF0065E016 /* InfoPlist.strings in Resources */,
-				EA99FE6F171C91CF0065E016 /* Default.png in Resources */,
-				EA99FE71171C91CF0065E016 /* Default@2x.png in Resources */,
-				EA99FE73171C91CF0065E016 /* Default-568h@2x.png in Resources */,
-				EA2923C7171FA26B006FCD53 /* DetailViewController.xib in Resources */,
+				EA2924401720ECE1006FCD53 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,25 +180,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA99FE69171C91CF0065E016 /* main.m in Sources */,
-				EA99FE6D171C91CF0065E016 /* HomepwnerAppDelegate.m in Sources */,
-				EA99FE7B171C932D0065E016 /* ItemsViewController.m in Sources */,
-				EA99FE7E171C94160065E016 /* BNRItem.m in Sources */,
-				EA99FE81171C94AD0065E016 /* BNRItemStore.m in Sources */,
-				EA2923C6171FA26B006FCD53 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA99FE65171C91CF0065E016 /* InfoPlist.strings */ = {
+		EA2924221720C972006FCD53 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA99FE66171C91CF0065E016 /* en */,
+				EA2924231720C972006FCD53 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
+			path = "Homepwner Bronze and Silver/en.lproj";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -268,7 +253,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
-				INFOPLIST_FILE = "Homepwner/Homepwner-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Homepwner-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,7 +264,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
-				INFOPLIST_FILE = "Homepwner/Homepwner-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Homepwner-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
