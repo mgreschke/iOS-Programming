@@ -17,7 +17,7 @@
     NSLog(@"%@ found a %@ element", self, elementName);
     
     if ([elementName isEqual:@"channel"]) {
-        // If parser saw a channel, create new instance and stroe in our ivar
+        // If parser saw a channel, create new instance and store in our ivar
         channel = [[RSSChannel alloc] init];
         
         // Give the channel object a pointer back to ourselves for later
